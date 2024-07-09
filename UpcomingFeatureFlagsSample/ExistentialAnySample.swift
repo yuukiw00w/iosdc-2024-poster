@@ -17,6 +17,6 @@ protocol ExistentialAnySampleProtocol {
     func printSample()
 }
 
-func doPrintSample(existentialAny: ExistentialAnySampleProtocol) {
+func doPrintSample(existentialAny: any ExistentialAnySampleProtocol) {
     existentialAny.printSample()
 }
