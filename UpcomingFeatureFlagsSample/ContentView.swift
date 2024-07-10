@@ -21,6 +21,9 @@ struct ContentView: View {
                 Button("ConciseMagicFileSample: printFilePath") {
                     printFilePath()
                 }
+                Button("RegexLiteralsSample") {
+                    printRegexLiteralMatch()
+                }
             }.padding()
         }
         .padding()

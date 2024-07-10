@@ -14,6 +14,7 @@
 		C4FEB78B2C3D51910058B9E5 /* ExistentialAnySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB78A2C3D51910058B9E5 /* ExistentialAnySample.swift */; };
 		C4FEB7952C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB7942C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests.swift */; };
 		C4FEB79C2C3E11EA0058B9E5 /* ConciseMagicFileSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB79B2C3E11EA0058B9E5 /* ConciseMagicFileSample.swift */; };
+		C4FEB79E2C3E51690058B9E5 /* RegexLiteralsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB79D2C3E51690058B9E5 /* RegexLiteralsSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C4FEB7922C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpcomingFeatureFlagsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FEB7942C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingFeatureFlagsSampleTests.swift; sourceTree = "<group>"; };
 		C4FEB79B2C3E11EA0058B9E5 /* ConciseMagicFileSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConciseMagicFileSample.swift; sourceTree = "<group>"; };
+		C4FEB79D2C3E51690058B9E5 /* RegexLiteralsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexLiteralsSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				C4FEB75C2C3CF75E0058B9E5 /* ContentView.swift */,
 				C4FEB78A2C3D51910058B9E5 /* ExistentialAnySample.swift */,
 				C4FEB79B2C3E11EA0058B9E5 /* ConciseMagicFileSample.swift */,
+				C4FEB79D2C3E51690058B9E5 /* RegexLiteralsSample.swift */,
 				C4FEB75E2C3CF75F0058B9E5 /* Assets.xcassets */,
 				C4FEB7602C3CF75F0058B9E5 /* Preview Content */,
 			);
@@ -207,6 +210,7 @@
 				C4FEB75D2C3CF75E0058B9E5 /* ContentView.swift in Sources */,
 				C4FEB79C2C3E11EA0058B9E5 /* ConciseMagicFileSample.swift in Sources */,
 				C4FEB75B2C3CF75E0058B9E5 /* UpcomingFeatureFlagsSampleApp.swift in Sources */,
+				C4FEB79E2C3E51690058B9E5 /* RegexLiteralsSample.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +292,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_ENABLE_BARE_SLASH_REGEX = NO;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -344,6 +349,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_ENABLE_BARE_SLASH_REGEX = NO;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
