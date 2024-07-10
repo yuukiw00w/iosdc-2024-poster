@@ -10,10 +10,18 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Button("ExistentialAnySample") {
-                let existentialAny = ExistentialAnySample()
-                doPrintSample(existentialAny: existentialAny)
-            }
+            Group {
+                Button("ExistentialAnySample") {
+                    let existentialAny = ExistentialAnySample()
+                    doPrintSample(existentialAny: existentialAny)
+                }
+                Button("ConciseMagicFileSample: printFile") {
+                    printFile()
+                }
+                Button("ConciseMagicFileSample: printFilePath") {
+                    printFilePath()
+                }
+            }.padding()
         }
         .padding()
     }
