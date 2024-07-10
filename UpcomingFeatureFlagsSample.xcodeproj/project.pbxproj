@@ -12,7 +12,19 @@
 		C4FEB75F2C3CF75F0058B9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FEB75E2C3CF75F0058B9E5 /* Assets.xcassets */; };
 		C4FEB7622C3CF75F0058B9E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FEB7612C3CF75F0058B9E5 /* Preview Assets.xcassets */; };
 		C4FEB78B2C3D51910058B9E5 /* ExistentialAnySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB78A2C3D51910058B9E5 /* ExistentialAnySample.swift */; };
+		C4FEB7952C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB7942C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests.swift */; };
+		C4FEB79C2C3E11EA0058B9E5 /* ConciseMagicFileSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB79B2C3E11EA0058B9E5 /* ConciseMagicFileSample.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4FEB7962C3E119B0058B9E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4FEB74F2C3CF75E0058B9E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4FEB7562C3CF75E0058B9E5;
+			remoteInfo = UpcomingFeatureFlagsSample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		C4FEB7572C3CF75E0058B9E5 /* UpcomingFeatureFlagsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpcomingFeatureFlagsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -21,10 +33,20 @@
 		C4FEB75E2C3CF75F0058B9E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4FEB7612C3CF75F0058B9E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C4FEB78A2C3D51910058B9E5 /* ExistentialAnySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistentialAnySample.swift; sourceTree = "<group>"; };
+		C4FEB7922C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpcomingFeatureFlagsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4FEB7942C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingFeatureFlagsSampleTests.swift; sourceTree = "<group>"; };
+		C4FEB79B2C3E11EA0058B9E5 /* ConciseMagicFileSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConciseMagicFileSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		C4FEB7542C3CF75E0058B9E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4FEB78F2C3E119B0058B9E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				C4FEB7592C3CF75E0058B9E5 /* UpcomingFeatureFlagsSample */,
+				C4FEB7932C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests */,
 				C4FEB7582C3CF75E0058B9E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				C4FEB7572C3CF75E0058B9E5 /* UpcomingFeatureFlagsSample.app */,
+				C4FEB7922C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +80,7 @@
 				C4FEB75A2C3CF75E0058B9E5 /* UpcomingFeatureFlagsSampleApp.swift */,
 				C4FEB75C2C3CF75E0058B9E5 /* ContentView.swift */,
 				C4FEB78A2C3D51910058B9E5 /* ExistentialAnySample.swift */,
+				C4FEB79B2C3E11EA0058B9E5 /* ConciseMagicFileSample.swift */,
 				C4FEB75E2C3CF75F0058B9E5 /* Assets.xcassets */,
 				C4FEB7602C3CF75F0058B9E5 /* Preview Content */,
 			);
@@ -68,6 +93,14 @@
 				C4FEB7612C3CF75F0058B9E5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4FEB7932C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4FEB7942C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests.swift */,
+			);
+			path = UpcomingFeatureFlagsSampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +123,24 @@
 			productReference = C4FEB7572C3CF75E0058B9E5 /* UpcomingFeatureFlagsSample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		C4FEB7912C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4FEB7982C3E119B0058B9E5 /* Build configuration list for PBXNativeTarget "UpcomingFeatureFlagsSampleTests" */;
+			buildPhases = (
+				C4FEB78E2C3E119B0058B9E5 /* Sources */,
+				C4FEB78F2C3E119B0058B9E5 /* Frameworks */,
+				C4FEB7902C3E119B0058B9E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4FEB7972C3E119B0058B9E5 /* PBXTargetDependency */,
+			);
+			name = UpcomingFeatureFlagsSampleTests;
+			productName = UpcomingFeatureFlagsSampleTests;
+			productReference = C4FEB7922C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -102,6 +153,10 @@
 				TargetAttributes = {
 					C4FEB7562C3CF75E0058B9E5 = {
 						CreatedOnToolsVersion = 15.4;
+					};
+					C4FEB7912C3E119B0058B9E5 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C4FEB7562C3CF75E0058B9E5;
 					};
 				};
 			};
@@ -119,6 +174,7 @@
 			projectRoot = "";
 			targets = (
 				C4FEB7562C3CF75E0058B9E5 /* UpcomingFeatureFlagsSample */,
+				C4FEB7912C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -133,6 +189,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4FEB7902C3E119B0058B9E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -142,11 +205,28 @@
 			files = (
 				C4FEB78B2C3D51910058B9E5 /* ExistentialAnySample.swift in Sources */,
 				C4FEB75D2C3CF75E0058B9E5 /* ContentView.swift in Sources */,
+				C4FEB79C2C3E11EA0058B9E5 /* ConciseMagicFileSample.swift in Sources */,
 				C4FEB75B2C3CF75E0058B9E5 /* UpcomingFeatureFlagsSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4FEB78E2C3E119B0058B9E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FEB7952C3E119B0058B9E5 /* UpcomingFeatureFlagsSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4FEB7972C3E119B0058B9E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4FEB7562C3CF75E0058B9E5 /* UpcomingFeatureFlagsSample */;
+			targetProxy = C4FEB7962C3E119B0058B9E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		C4FEB7632C3CF75F0058B9E5 /* Debug */ = {
@@ -288,7 +368,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ExistentialAny";
+				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ExistentialAny -enable-upcoming-feature ConciseMagicFile";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.noseda.UpcomingFeatureFlagsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -317,12 +397,48 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ExistentialAny";
+				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ExistentialAny -enable-upcoming-feature ConciseMagicFile";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.noseda.UpcomingFeatureFlagsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4FEB7992C3E119B0058B9E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ConciseMagicFile";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.noseda.UpcomingFeatureFlagsSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpcomingFeatureFlagsSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpcomingFeatureFlagsSample";
+			};
+			name = Debug;
+		};
+		C4FEB79A2C3E119B0058B9E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ConciseMagicFile";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.noseda.UpcomingFeatureFlagsSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpcomingFeatureFlagsSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpcomingFeatureFlagsSample";
 			};
 			name = Release;
 		};
@@ -343,6 +459,15 @@
 			buildConfigurations = (
 				C4FEB7662C3CF75F0058B9E5 /* Debug */,
 				C4FEB7672C3CF75F0058B9E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4FEB7982C3E119B0058B9E5 /* Build configuration list for PBXNativeTarget "UpcomingFeatureFlagsSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4FEB7992C3E119B0058B9E5 /* Debug */,
+				C4FEB79A2C3E119B0058B9E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
