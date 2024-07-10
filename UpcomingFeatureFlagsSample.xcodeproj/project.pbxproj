@@ -374,7 +374,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ExistentialAny -enable-upcoming-feature ConciseMagicFile";
+				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ExistentialAny -enable-upcoming-feature ConciseMagicFile -enable-upcoming-feature BareSlashRegexLiterals";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.noseda.UpcomingFeatureFlagsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -403,7 +403,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ExistentialAny -enable-upcoming-feature ConciseMagicFile";
+				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ExistentialAny -enable-upcoming-feature ConciseMagicFile -enable-upcoming-feature BareSlashRegexLiterals";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.noseda.UpcomingFeatureFlagsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
