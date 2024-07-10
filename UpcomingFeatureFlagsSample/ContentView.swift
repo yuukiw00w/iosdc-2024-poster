@@ -24,6 +24,11 @@ struct ContentView: View {
                 Button("RegexLiteralsSample") {
                     printRegexLiteralMatch()
                 }
+                Button("ForwardTrailingClosuresSample") {
+                    forwardTrailingClosuresSample {
+                        print("expected: first closure")
+                    }
+                }
             }.padding()
         }
         .padding()
