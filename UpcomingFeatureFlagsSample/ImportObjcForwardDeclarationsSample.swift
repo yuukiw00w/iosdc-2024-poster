@@ -10,7 +10,7 @@ import Foundation
 func importObjcForwardDeclarationsSample() {
     let sample1 = ForwardDeclaredSampleClass1()
     print(sample1)
-//    let sample2 = sample1.createSample()!
-//    print(sample2)
+    let sample2 = sample1.createSample()!
+    print(sample2)
 }
 
