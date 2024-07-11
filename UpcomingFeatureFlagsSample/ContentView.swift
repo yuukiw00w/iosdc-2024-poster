@@ -33,6 +33,9 @@ struct ContentView: View {
                     implicitOpenExistentialsSample(anyP: PImpl())
                     implicitOpenExistentialsSample2(anyP: PImpl())
                 }
+                Button("importObjcForwardDeclarationsSample") {
+                    importObjcForwardDeclarationsSample()
+                }
             }.padding()
         }
         .padding()

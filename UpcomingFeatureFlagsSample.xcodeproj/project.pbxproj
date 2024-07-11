@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C44FD1C62C4095EB004AA65F /* ForwardDeclaredSample.m in Sources */ = {isa = PBXBuildFile; fileRef = C44FD1C52C4095EB004AA65F /* ForwardDeclaredSample.m */; };
+		C44FD1CA2C4098A6004AA65F /* ForwardDeclaredSample2.m in Sources */ = {isa = PBXBuildFile; fileRef = C44FD1C92C4098A6004AA65F /* ForwardDeclaredSample2.m */; };
+		C44FD1CC2C409A40004AA65F /* ImportObjcForwardDeclarationsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C44FD1CB2C409A40004AA65F /* ImportObjcForwardDeclarationsSample.swift */; };
 		C4FEB75B2C3CF75E0058B9E5 /* UpcomingFeatureFlagsSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB75A2C3CF75E0058B9E5 /* UpcomingFeatureFlagsSampleApp.swift */; };
 		C4FEB75D2C3CF75E0058B9E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB75C2C3CF75E0058B9E5 /* ContentView.swift */; };
 		C4FEB75F2C3CF75F0058B9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FEB75E2C3CF75F0058B9E5 /* Assets.xcassets */; };
@@ -33,6 +36,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C44FD1C42C4095EB004AA65F /* UpcomingFeatureFlagsSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UpcomingFeatureFlagsSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		C44FD1C52C4095EB004AA65F /* ForwardDeclaredSample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardDeclaredSample.m; sourceTree = "<group>"; };
+		C44FD1C72C409845004AA65F /* ForwardDeclaredSample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForwardDeclaredSample.h; sourceTree = "<group>"; };
+		C44FD1C82C40989E004AA65F /* ForwardDeclaredSample2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForwardDeclaredSample2.h; sourceTree = "<group>"; };
+		C44FD1C92C4098A6004AA65F /* ForwardDeclaredSample2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForwardDeclaredSample2.m; sourceTree = "<group>"; };
+		C44FD1CB2C409A40004AA65F /* ImportObjcForwardDeclarationsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportObjcForwardDeclarationsSample.swift; sourceTree = "<group>"; };
 		C4FEB7572C3CF75E0058B9E5 /* UpcomingFeatureFlagsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpcomingFeatureFlagsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FEB75A2C3CF75E0058B9E5 /* UpcomingFeatureFlagsSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingFeatureFlagsSampleApp.swift; sourceTree = "<group>"; };
 		C4FEB75C2C3CF75E0058B9E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,8 +108,14 @@
 				C4FEB7A62C3F92F90058B9E5 /* DisableOutwardActorInferenceSample.swift */,
 				C4FEB7A82C3FD8470058B9E5 /* GlobalConcurrencySample.swift */,
 				C4FEB7AA2C3FE1E10058B9E5 /* IsolatedDefaultValuesSample.swift */,
+				C44FD1CB2C409A40004AA65F /* ImportObjcForwardDeclarationsSample.swift */,
+				C44FD1C72C409845004AA65F /* ForwardDeclaredSample.h */,
+				C44FD1C52C4095EB004AA65F /* ForwardDeclaredSample.m */,
+				C44FD1C82C40989E004AA65F /* ForwardDeclaredSample2.h */,
+				C44FD1C92C4098A6004AA65F /* ForwardDeclaredSample2.m */,
 				C4FEB75E2C3CF75F0058B9E5 /* Assets.xcassets */,
 				C4FEB7602C3CF75F0058B9E5 /* Preview Content */,
+				C44FD1C42C4095EB004AA65F /* UpcomingFeatureFlagsSample-Bridging-Header.h */,
 			);
 			path = UpcomingFeatureFlagsSample;
 			sourceTree = "<group>";
@@ -171,6 +186,7 @@
 				TargetAttributes = {
 					C4FEB7562C3CF75E0058B9E5 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 					C4FEB7912C3E119B0058B9E5 = {
 						CreatedOnToolsVersion = 15.4;
@@ -225,9 +241,12 @@
 				C4FEB7A92C3FD8470058B9E5 /* GlobalConcurrencySample.swift in Sources */,
 				C4FEB78B2C3D51910058B9E5 /* ExistentialAnySample.swift in Sources */,
 				C4FEB75D2C3CF75E0058B9E5 /* ContentView.swift in Sources */,
+				C44FD1CC2C409A40004AA65F /* ImportObjcForwardDeclarationsSample.swift in Sources */,
 				C4FEB79C2C3E11EA0058B9E5 /* ConciseMagicFileSample.swift in Sources */,
+				C44FD1C62C4095EB004AA65F /* ForwardDeclaredSample.m in Sources */,
 				C4FEB7A72C3F92F90058B9E5 /* DisableOutwardActorInferenceSample.swift in Sources */,
 				C4FEB7A02C3E5BFF0058B9E5 /* ForwardTrailingClosuresSample.swift in Sources */,
+				C44FD1CA2C4098A6004AA65F /* ForwardDeclaredSample2.m in Sources */,
 				C4FEB75B2C3CF75E0058B9E5 /* UpcomingFeatureFlagsSampleApp.swift in Sources */,
 				C4FEB7A22C3E70970058B9E5 /* ImplicitOpenExistentialsSample.swift in Sources */,
 				C4FEB79E2C3E51690058B9E5 /* RegexLiteralsSample.swift in Sources */,
@@ -379,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UpcomingFeatureFlagsSample/Preview Content\"";
@@ -398,6 +418,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.noseda.UpcomingFeatureFlagsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UpcomingFeatureFlagsSample/UpcomingFeatureFlagsSample-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -408,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"UpcomingFeatureFlagsSample/Preview Content\"";
@@ -427,6 +450,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.noseda.UpcomingFeatureFlagsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "UpcomingFeatureFlagsSample/UpcomingFeatureFlagsSample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
