@@ -29,6 +29,10 @@ struct ContentView: View {
                         print("expected: first closure")
                     }
                 }
+                Button("implicitOpenExistentialsSample") {
+                    implicitOpenExistentialsSample(anyP: PImpl())
+                    implicitOpenExistentialsSample2(anyP: PImpl())
+                }
             }.padding()
         }
         .padding()
