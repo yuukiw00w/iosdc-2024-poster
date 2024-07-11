@@ -394,7 +394,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ExistentialAny -enable-upcoming-feature ConciseMagicFile -enable-upcoming-feature BareSlashRegexLiterals -enable-upcoming-feature ForwardTrailingClosures -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature GlobalConcurrency";
+				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ExistentialAny -enable-upcoming-feature ConciseMagicFile -enable-upcoming-feature BareSlashRegexLiterals -enable-upcoming-feature ForwardTrailingClosures -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature GlobalConcurrency -enable-upcoming-feature IsolatedDefaultValues";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.noseda.UpcomingFeatureFlagsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -423,7 +423,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ExistentialAny -enable-upcoming-feature ConciseMagicFile -enable-upcoming-feature BareSlashRegexLiterals -enable-upcoming-feature ForwardTrailingClosures -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature GlobalConcurrency";
+				OTHER_SWIFT_FLAGS = "-enable-upcoming-feature ExistentialAny -enable-upcoming-feature ConciseMagicFile -enable-upcoming-feature BareSlashRegexLiterals -enable-upcoming-feature ForwardTrailingClosures -enable-upcoming-feature DisableOutwardActorInference -enable-upcoming-feature GlobalConcurrency -enable-upcoming-feature IsolatedDefaultValues";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.noseda.UpcomingFeatureFlagsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

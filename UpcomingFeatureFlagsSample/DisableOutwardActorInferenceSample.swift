@@ -8,6 +8,7 @@
 import Foundation
 
 @propertyWrapper
+@MainActor
 struct MainActorWrapper<Wrapped> {
     @MainActor var wrappedValue: Wrapped
 }
