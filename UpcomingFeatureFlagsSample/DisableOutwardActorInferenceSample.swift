@@ -12,6 +12,7 @@ struct MainActorWrapper<Wrapped> {
     @MainActor var wrappedValue: Wrapped
 }
 
+@MainActor
 struct MainActorIsolationInferenceSample {
     @MainActorWrapper var intValue: Int = 0
     nonisolated func nonisolatedFunc() {}
