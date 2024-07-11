@@ -9,4 +9,5 @@ import Foundation
 
 final class GlobalConcurrencySample {}
 
+@MainActor
 var sampleGlobalVar: GlobalConcurrencySample = .init()
