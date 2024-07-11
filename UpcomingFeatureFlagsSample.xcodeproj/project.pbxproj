@@ -18,6 +18,7 @@
 		C4FEB7A02C3E5BFF0058B9E5 /* ForwardTrailingClosuresSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB79F2C3E5BFF0058B9E5 /* ForwardTrailingClosuresSample.swift */; };
 		C4FEB7A22C3E70970058B9E5 /* ImplicitOpenExistentialsSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB7A12C3E70970058B9E5 /* ImplicitOpenExistentialsSample.swift */; };
 		C4FEB7A72C3F92F90058B9E5 /* DisableOutwardActorInferenceSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB7A62C3F92F90058B9E5 /* DisableOutwardActorInferenceSample.swift */; };
+		C4FEB7A92C3FD8470058B9E5 /* GlobalConcurrencySample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEB7A82C3FD8470058B9E5 /* GlobalConcurrencySample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		C4FEB79F2C3E5BFF0058B9E5 /* ForwardTrailingClosuresSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForwardTrailingClosuresSample.swift; sourceTree = "<group>"; };
 		C4FEB7A12C3E70970058B9E5 /* ImplicitOpenExistentialsSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitOpenExistentialsSample.swift; sourceTree = "<group>"; };
 		C4FEB7A62C3F92F90058B9E5 /* DisableOutwardActorInferenceSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisableOutwardActorInferenceSample.swift; sourceTree = "<group>"; };
+		C4FEB7A82C3FD8470058B9E5 /* GlobalConcurrencySample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConcurrencySample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				C4FEB79F2C3E5BFF0058B9E5 /* ForwardTrailingClosuresSample.swift */,
 				C4FEB7A12C3E70970058B9E5 /* ImplicitOpenExistentialsSample.swift */,
 				C4FEB7A62C3F92F90058B9E5 /* DisableOutwardActorInferenceSample.swift */,
+				C4FEB7A82C3FD8470058B9E5 /* GlobalConcurrencySample.swift */,
 				C4FEB75E2C3CF75F0058B9E5 /* Assets.xcassets */,
 				C4FEB7602C3CF75F0058B9E5 /* Preview Content */,
 			);
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4FEB7A92C3FD8470058B9E5 /* GlobalConcurrencySample.swift in Sources */,
 				C4FEB78B2C3D51910058B9E5 /* ExistentialAnySample.swift in Sources */,
 				C4FEB75D2C3CF75E0058B9E5 /* ContentView.swift in Sources */,
 				C4FEB79C2C3E11EA0058B9E5 /* ConciseMagicFileSample.swift in Sources */,
